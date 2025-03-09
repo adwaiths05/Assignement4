@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Font Sizes</title>
+    <style>
+        body {
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        /* (600px - 1200px) */
+        @media (max-width: 1200px) {
+            body {
+                font-size: 16px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+
+        /* (below 600px) */
+        @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Responsive heading</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, molestiae dolorem facilis, aspernatur dolores delectus soluta culpa voluptate totam, nostrum qui iusto doloremque iste quis hic error accusamus. Neque, sunt!</p>
+</body>
+</html>
